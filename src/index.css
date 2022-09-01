@@ -1,13 +1,71 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  font-family: sans-serif;
+}
+body{
+  background-color: #3f3f3f;
+}
+
+.app{
+  width: 50rem;
+  max-width: 90%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 3rem auto;
+}
+.form-control{
+  margin-bottom: 1rem;
+}
+
+.form-control label, .form-control input{
+  display: block;
+  margin: 1rem 0;
+}
+
+.form-control input{
+  font: inherit;
+  padding: 0.5rem;
+  width: 30rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+button{
+  font: inherit;
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.form-actions{
+  text-align: right;
+}
+.form-actions button{
+  margin-right: 1.75rem;
+}
+.invalid input{
+  border-color: red;
+}
+
+.error-text{
+  color: red;
+}
+
+button:disabled{
+  cursor: not-allowed;
+  background-color: #ccc;
+  color: #3f3f3f;
+}
+.success-text{
+  color: green;
 }

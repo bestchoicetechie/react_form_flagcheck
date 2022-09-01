@@ -1,0 +1,32 @@
+.app{
+    width: 50rem;
+    max-width: 90%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 3rem auto;
+}
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.form-control label, .form-control input{
+    display: block;
+}
+
+.form-control input{
+    font: inherit;
+    padding: 0.5rem;
+    width: 30rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.invalid input{
+    border-color: red;
+}
+
+.error-text{
+    color: red;
+}
